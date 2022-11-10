@@ -136,17 +136,17 @@ Q23. Write a code that displays the sum of all the even numbers from the given l
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 
---1st approach
-total_sum = 0
-for i in numbers:
-    if i % 2 == 0:
-        total_sum+=i
-print(total_sum)
+	--1st approach
+	total_sum = 0
+	for i in numbers:
+    		if i % 2 == 0:
+        		total_sum+=i
+		print(total_sum)
 
 
---2nd approach
-total_even_sum = 0
-print(sum([total_even_sum+i for i in numbers if i % 2 ==0]))
+	--2nd approach
+	total_even_sum = 0
+	print(sum([total_even_sum+i for i in numbers if i % 2 ==0]))
 
 
 
@@ -171,26 +171,27 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 
---1st approach
-numbers = [12, 75, 150, 180, 145, 525, 50]
-for i in numbers:
-    if i % 5 == 0:
-        print("This Number is divisible by 5 : ", i)
-    if i > 150:
-        print("Skipped Number is : ",i)
-        pass
-    if i > 500:
-        print("Loop got broked at : ",i)
-        break
+	--1st approach
+	numbers = [12, 75, 150, 180, 145, 525, 50]
+	for i in numbers:
+	    if i % 5 == 0:
+	        print("This Number is divisible by 5 : ", i)
+	    if i > 150:
+	        print("Skipped Number is : ",i)
+	        pass
+	    if i > 500:
+	        print("Loop got broked at : ",i)
+	        break
 
---2nd approach
-numbers = [12, 75, 150, 180, 145, 525, 50]
-for i in numbers:
-    if i % 5 == 0:
-        print("This Number is divisible by 5 : ",i)
-        if i > 150:
-            print("Skipped Number is : ",i)
-            pass
-        if i > 500:
-            print("Loop got broked at : ",i)
-            break 
+	--2nd approach
+	numbers = [12, 75, 150, 180, 145, 525, 50]
+	for i in numbers:
+	    if i % 5 == 0:
+	        print("This Number is divisible by 5 : ",i)
+	        if i > 150:
+	            print("Skipped Number is : ",i)
+	            pass
+	        if i > 500:
+	            print("Loop got broked at : ",i)
+	            break 
+	
