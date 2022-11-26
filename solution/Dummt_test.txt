@@ -1,0 +1,5 @@
+Find the commit ID of the version of the file you want to revert to.
+Find the path to the file you want to revert from the working directory.
+In the terminal, change directories to the working directory.
+Type git checkout [commit ID] -- path/to/file and hit enter.
+Commit the change to the reverted file.
