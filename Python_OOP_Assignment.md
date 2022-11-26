@@ -1,4 +1,5 @@
 Q1. What is the purpose of Python's OOP?
+
 Ans : An object-oriented paradigm is to design the program using classes and objects.    
 	  The object is related to real-word entities such as book, house, pencil, etc.     
       The oops concept focuses on writing the reusable code.     
