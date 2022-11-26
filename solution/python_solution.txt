@@ -1,2 +1,5 @@
 Q1 : WHAT IS PYTHON?
 ANS:
+
+Q2 : What is for each ?
+Ans:
