@@ -137,24 +137,26 @@ Ans : Inheritance relationship defines the classes that inherit from other class
 Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of 
 class C, which version gets invoked?
 
-Ans : 
-class A:
-    def test(self):
-        print("test of A called")
-class B:
-    def test(self):
-        print("test of B called") 
-class C(A,B):
-    def test(self):
-        print("test of C called")
-        super().test()     
-obj=C()
-obj.test()
 
-Output:
-abc@f07c99702756:~/workspace$ /bin/python /config/workspace/Assignment_2.py
-test of C called
-test of A called
+Ans : 
+
+      class A:
+             def test(self):
+                  print("test of A called")
+      class B:
+              def test(self):
+                  print("test of B called") 
+      class C(A,B):
+              def test(self):
+                  print("test of C called")
+                  super().test()     
+      obj=C()
+      obj.test()
+
+      Output:
+      abc@f07c99702756:~/workspace$ /bin/python /config/workspace/Assignment_2.py
+      test of C called
+      test of A called
 
 Q33. Which methods/functions do we use to determine the type of instance and inheritance?
 
