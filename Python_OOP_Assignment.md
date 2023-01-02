@@ -141,16 +141,16 @@ class C, which version gets invoked?
 Ans : 
 
       class A:
-          def test(self):
+          def func(self):
               print("test of A called")
       class B:
-          def test(self):
+          def func(self):
               print("test of B called") 
       class C(A,B):
-          def test1(self):
+          def func1(self):
               print("test of C called") 
       obj=C()
-      obj.test()
+      obj.func()
 
       Output:
       abc@f07c99702756:~/workspace$ /bin/python /config/workspace/Assignment_2.py
